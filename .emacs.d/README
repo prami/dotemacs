@@ -1,0 +1,75 @@
+REQUIREMENTS
+------------
+
+The current release was tested under Emacs 23.
+Rcodetools for auto-complete (gem install rcodetools)
+
+
+DESCRIPTION
+-----------
+
+Emacs init file and plugins to enhance Ruby on Rails development experience.
+
+Provides the following plugins:
+anything
+auto-complete
+autotest
+cedet (http://cedet.sourceforge.net/)
+color-theme
+ecb (http://ecb.sourceforge.net/)
+find-recursive
+flymake
+javascript
+nxhtml (http://ourcomments.org/Emacs/nXhtml/doc/nxhtml.html)
+rcodetools (http://eigenclass.org/hiki.rb?rcodetools)
+rdebug
+redo
+ri-emacs
+rinari (http://rinari.rubyforge.org/)
+ruby-block
+ruby-mode (svn co http://svn.ruby-lang.org/repos/ruby/trunk ruby | svn co http://svn.ruby-lang.org/repos/ruby/branches/ruby_1_8)
+toggle
+yaml-mode
+yasnippet (http://code.google.com/p/yasnippet/)
+yasnippets-rails (http://github.com/eschulte/yasnippets-rails/tree/master)
+
+
+INSTALLATION
+------------
+
+Copy all the files to ~/.emacs.d directory
+
+
+FONT
+----
+
+In the init.el file you have the following config font line
+
+;; (setq default-frame-alist '((font . "inconsolata")))
+
+Comment out this if you want to try inconsolata font, you must have this font installed on your system
+
+
+USAGE
+-----
+
+Try some autocompletion under ruby-mode with crtl+i and ctrl+o
+TODO complete ...
+
+
+TODO
+----
+
+- Fix problems with certain key combinations. Sometimes Emacs debugger appears and its a bit annoying.
+- Problems between autocompletion and tabkey2-mode when editing .html.erb files the suggestions doesn't work well
+
+Please if you find a bug or something report me. Contributions and suggestions are welcome :)
+
+
+CONTACT
+-------
+
+You can contact me: santiago@wyeworks.com
+Follow us in our blog: http://blog.wyeworks.com
+Repo: git://github.com/spastorino/my_emacs_for_rails.git
+
